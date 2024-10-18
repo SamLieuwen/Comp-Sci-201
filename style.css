@@ -25,6 +25,10 @@
     color: whitesmoke
 }
 
+div {
+    margin-left: 60px;
+}
+
 .self-image {
     width: 200px;
     height: 300px;
