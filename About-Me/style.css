@@ -1,6 +1,6 @@
 .heading {
     margin: 50px;
-    font-size: 18px;
+    font-size: 20px;
 
     td {
         padding: 3px;
@@ -11,6 +11,7 @@
     width: 200px;
     height: 300px;
     float: inline-end;
-    padding-right: 50px;
+    margin-right: 50px;
+    border-radius: 50px 50px 50px 50px;
 }
 
