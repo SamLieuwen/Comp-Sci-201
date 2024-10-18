@@ -1,0 +1,35 @@
+.topbar {
+    padding-top: 50px;
+    padding-bottom: 85px;
+    background-color: #333
+}
+
+.heading {
+    margin: 60px;
+    margin-top: 75px;
+    font-size: 20px;
+    color: whitesmoke;
+
+    td {
+        padding: 3px;
+    }
+}
+
+.heading a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.heading i {
+    font-size: 20px; 
+    color: whitesmoke
+}
+
+.self-image {
+    width: 200px;
+    height: 300px;
+    float: inline-end;
+    margin-right: 60px;
+    border-radius: 50px 50px 50px 50px;
+}
+
