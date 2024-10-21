@@ -1,12 +1,18 @@
+body {
+    background-color: whitesmoke;
+}
+
 .topbar {
-    padding-top: 50px;
-    padding-bottom: 85px;
-    background-color: #333
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #333;
+    border-radius: 35px;
 }
 
 .heading {
-    margin: 60px;
-    margin-top: 75px;
+    margin-left: 50px;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
     font-size: 20px;
     color: whitesmoke;
 
@@ -25,15 +31,26 @@
     color: whitesmoke
 }
 
-div {
-    margin-left: 60px;
+.about {
+    background-color: lightgrey;
+    border-radius: 35px;
+    padding: 10px;
+
+    h2 {
+        text-indent: 40px;
+    }
+
+    p, td {
+        text-indent: 20px;
+    }
 }
 
 .self-image {
     width: 200px;
     height: 300px;
     float: inline-end;
-    margin-right: 60px;
-    border-radius: 50px 50px 50px 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    padding: 10px;
 }
-
