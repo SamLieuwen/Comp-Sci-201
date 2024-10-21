@@ -2,18 +2,24 @@ body {
     background-color: whitesmoke;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
 .topbar {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    grid-column: 1 / span 2;
+    grid-row: 1;
     background-color: #333;
     border-radius: 35px;
 }
 
 .heading {
-    margin-left: 50px;
-    /* margin-top: 100px;
-    margin-bottom: 100px; */
     font-size: 20px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
     color: whitesmoke;
 
     td {
@@ -32,6 +38,8 @@ body {
 }
 
 .about {
+    grid-column: 1 / span 2;
+    grid-row: 2;
     background-color: lightgrey;
     border-radius: 35px;
     padding: 10px;
@@ -46,11 +54,10 @@ body {
 }
 
 .self-image {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 2;
+    margin-left: 65px;
     width: 200px;
     height: 300px;
-    float: inline-end;
-    margin-right: 50px;
-    border-radius: 50px;
-    background-color: whitesmoke;
-    padding: 10px;
+    border-radius: 35px;
 }
