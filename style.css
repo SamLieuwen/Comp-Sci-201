@@ -2,6 +2,16 @@ body {
     background-color: whitesmoke;
 }
 
+footer {
+    padding: 20px;
+    background-color: grey;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -16,7 +26,7 @@ body {
 }
 
 .heading {
-    font-size: 20px;
+    font-size: 35px;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 50px;
@@ -34,7 +44,7 @@ body {
 }
 
 .heading i {
-    font-size: 20px; 
+    font-size: 30px; 
     color: whitesmoke
 }
 
@@ -43,35 +53,62 @@ body {
     grid-row: 2 / span 2;
     background-color: lightgrey;
     border-radius: 35px;
+    padding-top: 15px;
+    padding-bottom: 20px;
 
     h2 {
-        margin-top: 25px;
+        font-size: 30px;
         margin-bottom: 25px;
         margin-left: 50px;
         margin-right: 50px;
     }
 
+    h3 {
+        font-size: 25px;
+    }
+
     p {
+        font-size: 25px;
         margin-top: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 10px;
         margin-left: 75px;
         margin-right: 50px;
     }
 }
 
-.lists {
-    margin-top: 25px;
-    margin-bottom: 25px;
+.flex-container {
+    display: flex;
+    font-size: 20px;
+}
+
+.left-list {
+    width: 40%;
     margin-left: 50px;
     margin-right: 50px;
+
+    li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.right-list {
+    margin-left: 50px;
+    margin-right: 50px;
+
+    li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
 
 .self-image {
     grid-column: 3 / span 1;
-    grid-row: 1 / span 2;
+    grid-row: 1 / span 3;
     justify-content: center;
+    margin-top: auto;
     margin: auto;
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 450px;
     border-radius: 35px;
 }
